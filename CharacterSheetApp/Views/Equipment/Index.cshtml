@@ -1,0 +1,20 @@
+@model List<CharacterSheetApp.Models.Equipment>
+<h2>Equipment:</h2>
+
+<form asp-action="Create" asp-controller="Equipment" class="form-inline-mbm">
+    <div class="form-group">
+      <input name="EquipmentName" class="form-control" />
+      <input class="btn" type="submit" value="Add Equipment" />
+    </div>
+</form>
+
+<h4>Equipment:</h4>
+
+<div>
+  @foreach(var equipment in Model)
+  {
+    <ul>
+      <li>@equipment.Name</li>
+    </ul>
+  }
+</div>
