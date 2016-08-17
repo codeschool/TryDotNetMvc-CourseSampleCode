@@ -48,7 +48,7 @@ namespace CharacterSheetApp
             }
             else
             {
-                app.UseExceptionHandler("/Error/Error");
+                app.UseExceptionHandler("/Shared/Error");
             }
 
             app.UseStaticFiles();
