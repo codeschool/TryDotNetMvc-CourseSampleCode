@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/CharacterSheetApp/bin/Debug/<target-framework>/<project-name.dll>",
+            "program": "${workspaceRoot}/CharacterSheetApp/bin/Debug/netcoreapp1.0/CharacterSheetApp.dll",
             "args": [],
             "cwd": "${workspaceRoot}/CharacterSheetApp",
             "stopAtEntry": false,
