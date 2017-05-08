@@ -11,7 +11,7 @@ To run this code, just clone the repo and make sure you've got the following ins
 
 ## Differences between this project and what was in the course
 
-1. The project was upgraded from .NET Core was RC1 to .NET Core 1.0. (This changed `using Microsoft.AspNet.Mvc;` to `using Microsoft.AspNet.Core.Mvc;` all other changes don't impact what was covered in the course)
+1. The project was upgraded from .NET Core was RC1 to .NET Core 1.1. (This changed `using Microsoft.AspNet.Mvc;` to `using Microsoft.AspNet.Core.Mvc;` all other changes don't impact what was covered in the course)
 
 2. Instead of both `Equipment` and `Character` using the `HomeController` and `Home` Index, they're using the `EquipmentController` and `CharacterController` respectively.
 
