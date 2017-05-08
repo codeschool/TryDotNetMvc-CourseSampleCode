@@ -13,7 +13,7 @@ namespace CharacterSheetApp.Models
             GlobalVariables.Equipment.Add(equipment);
         }
 
-        public static List<Equipment> GetAll() 
+        public static List<Equipment> GetAll()
         {
             return GlobalVariables.Equipment;
         }

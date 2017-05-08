@@ -1,5 +1,5 @@
+﻿using CharacterSheetApp.Models;
 using Microsoft.AspNetCore.Mvc;
-using CharacterSheetApp.Models;
 
 namespace CharacterSheetApp.Controllers
 {
@@ -13,7 +13,7 @@ namespace CharacterSheetApp.Controllers
         public IActionResult Create(string CharacterName)
         {
             Character.Create(CharacterName);
-            return RedirectToAction("Index","Character");
+            return RedirectToAction("Index", "Character");
         }
     }
 }

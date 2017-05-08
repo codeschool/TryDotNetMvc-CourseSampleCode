@@ -17,22 +17,6 @@ textarea {
     max-width: 280px;
 }
 
-/* Carousel */
-.carousel-caption {
-    z-index: 10 !important;
-}
-
-    .carousel-caption p {
-        font-size: 20px;
-        line-height: 1.4;
-    }
-
-@media (min-width: 768px) {
-    .carousel-caption {
-        z-index: 10 !important;
-    }
-}
-
 /*************************************
 /   Inbox
 /*************************************/
@@ -51,31 +35,32 @@ body {
     color: #fff;
 }
 
-.btn:active,
-.btn:hover,
-.btn:focus  {
-    background: #e4882d;
-    color: #fff;
-}
+    .btn:active,
+    .btn:hover,
+    .btn:focus {
+        background: #e4882d;
+        color: #fff;
+    }
 
 .navbar-inverse .navbar-brand {
     color: #f59231;
 }
-.navbar-inverse .navbar-brand:active,
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus  {
-    color: #e4882d;
-}
+
+    .navbar-inverse .navbar-brand:active,
+    .navbar-inverse .navbar-brand:hover,
+    .navbar-inverse .navbar-brand:focus {
+        color: #e4882d;
+    }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #fff;
+    color: #fff;
 }
 
-.navbar-inverse .navbar-nav > li > a:active,
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus  {
-    text-decoration: underline;
-}
+    .navbar-inverse .navbar-nav > li > a:active,
+    .navbar-inverse .navbar-nav > li > a:hover,
+    .navbar-inverse .navbar-nav > li > a:focus {
+        text-decoration: underline;
+    }
 
 /***** Tools *****/
 

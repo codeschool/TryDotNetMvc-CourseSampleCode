@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace CharacterSheetApp.Models
 {
@@ -16,7 +16,7 @@ namespace CharacterSheetApp.Models
             GlobalVariables.Characters.Add(character);
         }
 
-        public static List<Character> GetAll() 
+        public static List<Character> GetAll()
         {
             return GlobalVariables.Characters;
         }

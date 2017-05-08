@@ -1,20 +1,20 @@
-@model List<CharacterSheetApp.Models.Character>
+﻿@model List<CharacterSheetApp.Models.Character>
 <h2>Character:</h2>
 
 <form asp-action="Create" asp-controller="Character" class="form-inline-mbm">
     <div class="form-group">
-      <input name="CharacterName" class="form-control" />
-      <input class="btn" type="submit" value="Add Character" />
+        <input name="CharacterName" class="form-control" />
+        <input class="btn" type="submit" value="Add Character" />
     </div>
 </form>
 
 <h4>Character:</h4>
 
 <div>
-  @foreach(var character in Model)
-  {
-    <ul>
-      <li>@character.Name</li>
-    </ul>
-  }
+    @foreach (var character in Model)
+    {
+        <ul>
+            <li>@character.Name</li>
+        </ul>
+    }
 </div>
